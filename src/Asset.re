@@ -14,4 +14,4 @@ type t = {
 external loadAsync : 'a => Js.Promise.t(unit) = "loadAsync";
 
 [@bs.module "expo"] [@bs.scope "Asset"]
-external fromModule : BsReactNative.Packager.required => t = "fromModule";
+external fromModule : Rebolt.Packager.required => t = "fromModule";
