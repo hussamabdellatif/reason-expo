@@ -1,4 +1,4 @@
-open BsReactNative;
+open Rebolt;
 
 [@bs.module "expo"] [@bs.scope "Font"]
 external loadDict : Js.Dict.t(Packager.required) => Js.Promise.t(unit) =
