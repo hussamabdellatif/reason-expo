@@ -1,4 +1,4 @@
-[@bs.module "expo"] [@bs.scope "Font"]
+[@bs.module "expo"] [@bs.scope "expo-font"]
 external _loadDict :
   Js.Dict.t(Rebolt.Packager.required) => Js.Promise.t(unit) =
   "loadAsync";
